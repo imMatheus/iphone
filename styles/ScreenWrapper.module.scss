@@ -1,0 +1,15 @@
+.wrapper {
+    scroll-snap-type: x mandatory;
+    width: 300%;
+    overflow-x: scroll;
+    position: relative;
+    // height: 100%;
+    // background-color: red;
+    display: flex;
+
+    & > * {
+        width: 100%;
+        scroll-snap-align: start;
+        // flex: 0;
+    }
+}
